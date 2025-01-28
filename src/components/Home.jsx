@@ -14,7 +14,7 @@ function Home() {
     
     return (
        <>
-        <div name="Home" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+        <div name="Home" className='max-w-screen-2xl container text-gray-50 bg-slate-900 mx-auto px-4 md:px-20 py-20'>
             <div className='flex flex-col md:flex-row'>
                 <div className='md:w-1/2 mt-12 md:mt-24 order-2 md:order-1 space-y-2'>
                     <span className='text-xl'>Step into my portfolio and see the magic I create with code.</span>
@@ -27,7 +27,7 @@ function Home() {
                             typeSpeed={40}
                             backSpeed={50}
                             loop={true}
-                            className='text-rose-700'
+                            className='text-[#EF83B9] font-semibold'
                         />
 
                     </div>
@@ -41,7 +41,7 @@ function Home() {
                     <div className="flex flex-col py-5 md:py-0 md:flex-row justify-between items-center">
                         <div className='space-y-2'>
                             <h1 className='font-semibold'>Available on</h1>
-                            <ul className="flex space-x-5">
+                            <ul className="flex space-x-5 text-[#EF83B9]">
                                 <li>
                                   <a href="https://www.linkedin.com/in/priyanshu-kumari93933/" target='_blank'>
                                     <FaLinkedin className='text-2xl cursor-pointer' />
@@ -68,7 +68,7 @@ function Home() {
                         </div>
                         <div className='space-y-2 py-4 md:py-0'>
                             <h1 className='font-semibold'>Currently Working on</h1>
-                            <div className="flex space-x-5">
+                            <div className="flex space-x-5 text-[#EF83B9]">
                                 <SiMongodb className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
                                 <SiExpress className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
                                 <FaReact className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]' />

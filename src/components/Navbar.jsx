@@ -40,22 +40,22 @@ function Navbar() {
 
   return (
     <>
-      <nav className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md fixed top-0 left-0 right-0">
-        <div className="flex justify-between items-center h-16">
+      <nav className="max-w-screen-2xl bg-slate-900 container mx-auto px-4 md:px-20 shadow-md fixed top-0 left-0 right-0">
+        <div className="flex justify-between items-center h-16 ">
           <div className="flex space-x-2">
             <img src={pic} className="h-16 w-16 rounded-full" alt="Logo" />
-            <h1 className="font-semibold text-xl cursor-pointer">
-              Priy<span className="text-green-500 text-2xl">a</span>Shu
+            <h1 className="font-semibold text-xl cursor-pointer text-gray-50">
+              PRIY<span className="text-[#EF83B9] text-xl">A</span>SHU
               <p className="text-sm">Web Developer</p>
             </h1>
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden text-gray-100 md:flex space-x-8">
             <ul className="flex space-x-8">
              {
                 navItem.map(({id, text})=>(
-                    <li key={id} className='hover:scale-105 duration-200 cursor-pointer'>
+                    <li key={id} className='hover:scale-105 duration-200 cursor-pointer text-[#EF83B9]'>
                       <Link 
                       to={text}
                       smooth={true}
@@ -70,7 +70,7 @@ function Navbar() {
           </div>
 
           {/* Mobile menu toggle */}
-          <div onClick={toggleMenu} className="md:hidden cursor-pointer">
+          <div onClick={toggleMenu} className="md:hidden cursor-pointer text-white">
             {menu ? <RiCloseFill size={30} /> : <LuSquareMenu size={30} className='cursor-pointer'/>}
           </div>
         </div>
@@ -84,7 +84,7 @@ function Navbar() {
             <ul>
             {
                 navItem.map(({id, text})=>(
-                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>
+                    <li className='hover:scale-105 duration-200 cursor-pointer text-[#EF83B9]' key={id}>
                        <Link 
                        onClick={()=>setMenu(!menu)}
                       to={text}

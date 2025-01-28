@@ -54,19 +54,19 @@ function Experiance() {
   ];
 
   return (
-    <div name="Experiance" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-4">
-      <h1 className="text-3xl font-semibold mb-5">Experience</h1>
+    <div name="Experiance" className="max-w-screen-2xl container mx-auto text-white px-4 md:px-20 bg-slate-900 py-4">
+      <h1 className="text-3xl font-semibold mb-5 text-[#EF83B9]">Experience</h1>
       <span className="underline font-semibold">Technologies I've Worked With</span>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
         {cardItem.map((item) => (
           <div
             key={item.id}
-            className="bg-white flex flex-col items-center text-center transform transition-transform duration-300 hover:scale-105"
+            className=" flex flex-col items-center text-center transform transition-transform duration-300 hover:scale-105"
           >
             <img src={item.image} alt={item.title} className="h-24 w-24 mb-4" />
             <h3 className="text-xl font-semibold mb-2">{item.name}</h3>
-            <p className="text-gray-500">{item.title}</p>
+            {/* <p className="text-gray-500">{item.title}</p> */}
           </div>
         ))}
       </div>
