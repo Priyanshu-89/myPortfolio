@@ -5,7 +5,6 @@ This portfolio showcases my **skills, projects, and experiences**, highlighting 
 
 ## 🚀 Key Highlights:  
 ✅ **Modern & Responsive Design**  
-✅ **Smooth Animations using GSAP**  
 ✅ **Showcase of My Real-World Projects**  
 ✅ **Interactive UI & Fast Performance**  
 
