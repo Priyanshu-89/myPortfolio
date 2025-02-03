@@ -1,8 +1,14 @@
-# React + Vite
+# 📌 About Me - Personal Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello! 👋 I’m **PRIYANSHU KUMARI**, a passionate **NEXTJS DEVELOPER** with expertise in **HTML, CSS, JavaScript, and Next.js**.  
+This portfolio showcases my **skills, projects, and experiences**, highlighting my work in **web development,  and real-world projects** like **Novocardia** and **Eaglaye**.  
 
-Currently, two official plugins are available:
+## 🚀 Key Highlights:  
+✅ **Modern & Responsive Design**  
+✅ **Smooth Animations using GSAP**  
+✅ **Showcase of My Real-World Projects**  
+✅ **Interactive UI & Fast Performance**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Portfolio:** https://moonlit-gingersnap-08efd1.netlify.app/  
+
+Let me know if you have any feedback! 😊🚀  
